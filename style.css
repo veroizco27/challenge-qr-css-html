@@ -1,39 +1,40 @@
 body{
- background-color: rgb(187, 206, 212);
+    background-color: rgb(187, 206, 212);
 }
-.flex-container{
+.flex-container {
     display: flex;
     justify-content: center;
     
 }
 /* CONTAINER QUE LLEVA LA IMAGEN*/
-.container{
+.container {
+    margin-top: 100px;
     border : 15px solid rgb(255, 255, 255);
     background-color: rgb(254, 255, 255);
-    height: 420px;
+    height: 440px;
     width: 290px;
     border-radius: 20px;
     text-align: center;
 }
 /* CONTAINER CON LA IMAGEN*/
 .container img {
- justify-content: center;
- align-items: center;
- width: 100%;
- height: 65% ;
- border-radius: 15px;
- display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 65% ;
+    border-radius: 15px;
 }
 /*CONTAINER CON H3 Y P*/
-.container-text{
-font-size: 10px;
-text-align
+.container-text {
+font-size: 17px;
+text-align:center;
+justify-items: center;
 }
 .attribution {
-margin-top: 50px;
-  font-size: 11px;
-  text-align: center;
+    margin-top:70px ;
+    font-size: 11px ;
+    text-align: center ;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+    color: hsl(228, 45%, 44%);
 }
